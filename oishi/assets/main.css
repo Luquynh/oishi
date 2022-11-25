@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.ml-20{
+    margin-left: 20%;
+}
+.main .header-banner{
+    background: top center / cover no-repeat url("https://oishi.cdn.vccloud.vn/storage/banners/January2019/zhuF5wCas7bVLEVipjej.png");
+    overflow-x: hidden;
+    /* max-width: 80%;
+    margin: auto; */
+    max-width: 100%;
+    padding-top: 26%;
+    position: relative;
+    /* width: 100%; */
+}
+.main .header-bangtin{
+    background: top center / cover no-repeat url("https://oishi.cdn.vccloud.vn/storage/banners/May2019/UqaD9x7SovRqjbYz4IVh.png");
+    overflow-x: hidden;
+    /* max-width: 80%;
+    margin: auto; */
+    max-width: 100%;
+    padding-top: 26%;
+    position: relative;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+.header .header_icon{
+    margin: 0 12%;
+}
+.mr-8{
+    margin-right:8px;
+}
+.pd-24{
+    padding-top: 25px;
+}
+.mt-64{
+    padding-top: 64px;
+}
+.main .product_intro{
+    height: 1300px;
+    display: block;
+}
+/* footer */
+.footer{
+    display: block;
+    position: relative;
+}
+.footer .container{
+    position: absolute;
+    top: 20%;
+
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.footer .banner-footer{
+    animation: backgroundScroll 100s linear infinite;
+    position: absolute;
+}
+/* @keyframes backgroundScroll{
+    0% { 
+        transform: translateX(40%);
+     }
+    100% { 
+        transform: translateX(-40%);
+     }
+} */
+/* Step by step content */
+.content-about-wrapper .container .slogan-wrapper .left-slogan img.text {
+    margin-left: 90px;
+}
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+.content-about-wrapper .container .slogan-wrapper .left-slogan img.text {
+    margin-left: 90px;
+}
+.content-about-wrapper .container .unit-slogan{
+width: 50%;
+}
+.content-about-wrapper .container .slogan-wrapper{
+    width: 100%;
+}
+.content-about-wrapper .container .slogan-wrapper .right-slogan img.bg {
+    position: relative;
+}
+.content-about-wrapper .container .slogan-wrapper .right-slogan img.text {
+    position: absolute;
+    top: 70%;
+    left: 65%;
+   
+}
+.content-about-wrapper .container .first-step-wrapper .left-step .title-step {
+    /* padding-top: 70px; */
+}
+
+a.name {
+    font-size: 19px;
+    line-height: 1.5;
+    color: #000;
+    text-decoration: none;
+    transition: all linear .3s;
+}
+a.name.d-none.d-sm-block {
+    width: 400px;
+}
+.cake{
+    position: absolute;
+    top: 85%;
+    left: 70%;
+}
+.content-about-wrapper .title-step img {
+    width: 120px;
+}
+.content-about-wrapper .container .step-3-wrapper .content-step .left-step .title-step-2 img {
+    width: 120px;
+    margin-left: 300px;
+
+}
+.title-step{
+    margin-top: 80px;
+}
+.content-about-wrapper .container .step-3-wrapper .image-product .title-step-2 img {
+    width: 120px;
+}
+.first-step-wrapper{
+    width: 100%;
+}
+.left-slogan{
+    float: left;
+}
+.right-slogan{
+    float: right;
+}
+.content-about-wrapper .container .first-step-wrapper .left-step .image-step img {
+    width: 260px;
+}
+.banner-footer{
+    left: 0;
+   max-width: 100%;
+   height: 250px;
+}
+.left-step{
+    width: 50%;
+    float: left;
+    margin-top: 64px;
+}
+.right-step{
+    width: 50%;
+    float: right;
+    margin-top: 64px;
+}
+
+.first-step-wrapper .image-step{
+    width: 400px;
+}
+.main-content .step-3-wrapper .image-step{
+    width: 60%;
+}
+.main-line{
+    margin-left: 25%;
+    height: 700px;
+    position: relative;
+}
+.img-fluid.wind-1 {
+    position: absolute;
+    top: 90%;
+}
+.title-step-2 {
+    margin-right: 10px;
+    margin-top: 48px;
+}
+.mt-5{
+    margin-top: 5%;
+}
+/* product */
+.image-product{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.image-product .box-3{
+
+
+}
+.image-product .title-step-2 {
+    width: 20%;
+    float: left;
+}
+.content-step{
+    margin-bottom: 100px;
+}
+/* footer */
+/* .footer, .footer .container{
+    margin-top: 1500px;
+} */
+.footer {
+margin-top: 100px;
+}
+.footer .container a{
+    color: black;
+    font-family: "Montserrat-Bold",sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 790;
+    line-height: 1.2;
+}
+.footer .container h3.text-ecommerce .ecommerce-button {
+    cursor: pointer;
+    margin-top: 0.5rem;
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Mali-Bold";
+    color: #fff;
+    margin-bottom: 10px;
+    border: 1px;
+    text-transform: uppercase;
+    background-color: #cd212b;
+    padding: 5px 1rem;
+    border-radius: 50px;
+    border: 1px solid #ff8112;
+    transition: transform .3s linear;
+}
+.footer .container ul.social li a {
+    width: 100%;
+    display: block;
+   list-style-type: none;
+    text-align: center;
+    line-height: 30px;
+
+}
+ul{
+    list-style-type: none !important;
+}
+.footer .container{
+    margin-top: 64px;
+}
+.social .row{
+    margin: 0;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.banner-footer{
+    height: 300px;
+}
+.footer .container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* main.css bang tin */
+.list-catergory{
+    display: inline-block;
+    justify-content:space-around;
+}
+.product-img{
+    margin-top: 36px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    opacity: 1;
+}
+/* .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #888888;
+    display: none;
+  } */
+  .product-img:hover{
+    display: block;
+    opacity: 0.8;
+  
+  }
+  .title-img{
+    font-size: 30px;
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+  }
+
+
+
+
